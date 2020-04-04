@@ -3,7 +3,7 @@
 # Steve Howard
 # http://appcrawler.com/wordpress/2011/04/01/format-output-of-crsctl-status-for-rac-11gr2/
  
-CRS_HOME=/u01/app/18.0.0.0/grid
+CRS_HOME=
  
 $CRS_HOME/bin/crsctl stat res -t \
   | awk -v t="$t" '$0 !~ "Cluster Resources" && $0 !~ "Local Resources" \
