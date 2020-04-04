@@ -40,4 +40,3 @@ $CRS_HOME/bin/crsctl stat res -t \
           } \
         } \
       }'
-
