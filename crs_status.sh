@@ -2,6 +2,9 @@
 # Credit to :
 # Steve Howard
 # http://appcrawler.com/wordpress/2011/04/01/format-output-of-crsctl-status-for-rac-11gr2/
+# To modify the CRS_HOME via sed use the following
+# export GRID_HOME=/u01/app/19.0.0.0/grid
+# sed -i '/^CRS_HOME/ s~CRS_HOME=$~CRS_HOME='${GRID_HOME}'~' ${HOME}/working/crs_status.sh
  
 CRS_HOME=
  
